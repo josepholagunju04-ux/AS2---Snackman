@@ -12,3 +12,16 @@ body {
     margin: 20px auto;
 }
 
+.game-container {
+    position: relative;
+    margin: 20px auto;
+}
+
+.maze-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 40px);
+    gap: 2px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
