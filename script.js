@@ -174,3 +174,5 @@ document.addEventListener('keydown', movePlayer);
 
 drawMaze();
 startBtn.style.display = 'inline-block';
+
+let name = prompt("Enter your name");
