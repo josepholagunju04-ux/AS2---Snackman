@@ -176,4 +176,3 @@ drawMaze();
 startBtn.style.display = 'inline-block';
 
 let name = prompt("Enter your name"); localStorage.setItem ("playerName", name);
-
