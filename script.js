@@ -4,6 +4,14 @@ const scoreText = document.querySelector('.score');
 const messageBox = document.getElementById('messageBox');
 const livesBox = document.querySelector('.lives');
 
+player.classList.add("hit");
+canMove = false;
+
+setTimeout(() => {
+   player.classList.remove("hit");
+   canMove = true;
+}, 1500); 
+
 let score = 0;
 let lives = 3;
 let playerPos = { x: 1, y: 1 };
@@ -176,3 +184,4 @@ drawMaze();
 startBtn.style.display = 'inline-block';
 
 let name = prompt("Enter your name"); localStorage.setItem ("playerName", name);
+
